@@ -1,9 +1,17 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+"""This module creates a Place class"""
+
+=======
 """Defines the Place class."""
+>>>>>>> 4a69549fddf653157ce54a66ecd85339e626c28c
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
+<<<<<<< HEAD
+    """Class for managing place objects"""
+=======
     """Represent a place.
 
     Attributes:
@@ -19,6 +27,7 @@ class Place(BaseModel):
         longitude (float): The longitude of the place.
         amenity_ids (list): A list of Amenity ids.
     """
+>>>>>>> 4a69549fddf653157ce54a66ecd85339e626c28c
 
     city_id = ""
     user_id = ""
